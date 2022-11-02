@@ -37,7 +37,8 @@ jobs:
         with:
           python-version: '3.10'
       - run: |
-          cd terra_test
+          cd .github
+          cd workflows
           python myscript/**
           
   
