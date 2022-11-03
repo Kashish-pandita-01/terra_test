@@ -30,7 +30,7 @@ jobs:
           echo test, deploying new project.
 
   run_python_script:
-    runs-on: self-hosted
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v3
