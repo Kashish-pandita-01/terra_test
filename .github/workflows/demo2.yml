@@ -29,6 +29,9 @@ jobs:
           echo multiple files task,
           echo test, deploying new project.
 
+      - name: Run a SECRETS KEY IN ACTIONS
+        run: echo ${{ secrets.Password}}
+
   run_python_script:
     runs-on: windows-latest
 
