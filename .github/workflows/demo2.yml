@@ -38,6 +38,6 @@ jobs:
       - name: Run a python file
         run: |
           cd script
-          python myscript.py
+          python3 myscript.py
           
   
