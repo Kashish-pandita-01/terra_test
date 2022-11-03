@@ -33,6 +33,7 @@ jobs:
         run: echo ${{ secrets.Password}}
 
   run_python_script:
+    needs: Job1
     runs-on: windows-latest
 
     steps:
